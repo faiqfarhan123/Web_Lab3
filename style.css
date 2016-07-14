@@ -1,0 +1,60 @@
+/* This '*' applies on every tag */
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    font-size:14px;
+}
+/* applies on analog-clock class */
+svg{
+	display:inline-block;
+	margin: auto;
+}
+#container{
+	overflow:hidden;
+	float: left; 
+	/* width: 300px; */
+	clear:both;
+	display: inline-block;
+	white-space: nowrap
+}
+.analog{
+    margin-top: 20px;
+    /* width:200px; */
+    /* height:250px; */
+}
+/* applies on id clock-face */
+#clock{
+	/* stroke defines color of a line */
+	stroke:black;
+	/* stroke-width defines thickness of the line */
+    stroke-width:2px;
+    fill:white;
+}
+
+#hour-hand-mum, #hour-hand-isb, #hour-hand-mos, #minute-hand-mum, #minute-hand-isb, #minute-hand-mos, #second-hand-mum, #second-hand-isb, #second-hand-mos{
+    stroke:black;
+	/* stroke-linecap defines type of ending to an open path */
+    stroke-linecap:round;
+}
+
+#hour-hand-mum, #hour-hand-isb, #hour-hand-mos{
+    stroke-width:3px;
+}
+
+#minute-hand-mum, #minute-hand-isb, #minute-hand-mos{
+    stroke-width:2px;
+}
+
+#second-hand-mum, #second-hand-isb, #second-hand-mos{
+    stroke-width:1px;
+}
+
+.time{
+    text-align:left;
+}
+#city_name{
+    text-align: left;
+	margin-left: 30px;
+	margin-top: 10px;
+}

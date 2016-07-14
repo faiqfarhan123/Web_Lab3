@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Analog Clock</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body>
+	<!-- Displays Clock -->
+  
+<div id= "container">
+
+            <p id = "city_name"> 
+			&nbsp&nbsp&nbsp&nbsp
+                Islamabad
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                Mumbai
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				Moscow
+            </p>
+			<div class="analog">
+            <svg width="140" height="140">
+                <circle id="clock" cx="70" cy="70" r="65" />
+                <line id="hour-hand-isb" x1="70" y1="70" x2="70" y2="42" />
+                <line id="minute-hand-isb" x1="70" y1="70" x2="70" y2="20" />
+                <line id="second-hand-isb" x1="70" y1="70" x2="70" y2="12" />
+                <line id="second-tail-isb" x1="70" y1="70" x2="70" y2="56" />
+                <text x="62" y="18">12</text>
+                <text x="126" y="76">3</text>
+                <text x="66" y="130">6</text>
+                <text x="7" y="76">9</text>
+            </svg>
+			<svg width="140" height="140">
+                <circle id="clock" cx="70" cy="70" r="65" />
+                <line id="hour-hand-mum" x1="70" y1="70" x2="70" y2="42" />
+                <line id="minute-hand-mum" x1="70" y1="70" x2="70" y2="20" />
+                <line id="second-hand-mum" x1="70" y1="70" x2="70" y2="12" />
+                <line id="second-tail-mum" x1="70" y1="70" x2="70" y2="56" />
+                <text x="62" y="18">12</text>
+                <text x="126" y="76">3</text>
+                <text x="66" y="130">6</text>
+                <text x="7" y="76">9</text>
+            </svg>
+			<svg width="140" height="140">
+                <circle id="clock" cx="70" cy="70" r="65" />
+                <line id="hour-hand-mos" x1="70" y1="70" x2="70" y2="42" />
+                <line id="minute-hand-mos" x1="70" y1="70" x2="70" y2="20" />
+                <line id="second-hand-mos" x1="70" y1="70" x2="70" y2="12" />
+                <line id="second-tail-mos" x1="70" y1="70" x2="70" y2="56" />
+                <text x="62" y="18">12</text>
+                <text x="126" y="76">3</text>
+                <text x="66" y="130">6</text>
+                <text x="7" y="76">9</text>
+            </svg>
+			</div>
+	<!-- Displays Time -->
+            <div class="time">
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <span id="hour-isb">00</span>
+                <span>:</span>
+                <span id="minute-isb">00</span>
+                <span>:</span>
+                <span id="second-isb">00</span>
+                <span id="suffix-isb">--</span>
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				<span id="hour-mum">00</span>
+                <span>:</span>
+                <span id="minute-mum">00</span>
+                <span>:</span>
+                <span id="second-mum">00</span>
+                <span id="suffix-mum">--</span>
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				<span id="hour-mos">00</span>
+                <span>:</span>
+                <span id="minute-mos">00</span>
+                <span>:</span>
+                <span id="second-mos">00</span>
+                <span id="suffix-mos">--</span>
+
+            </div>
+
+
+		</div>
+    
+    </body>
+</html>
